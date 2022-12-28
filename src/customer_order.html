@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TWRental | Customer </title>
+<link href="/src/styles.css" type="text/css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="/src/customer_Order.js"></script>
+    </head>
+    <body>
+        <div id="main" class="main">
+            <div class="page">
+              <div class="left">
+                 <h2>  Customers | </h2> 
+              </div>
+                  <div class="right">
+                
+                        <ul >
+                            <li id="1">Order Amounts</li> 
+                            <li id="exchange">Orderlist</li>
+                           
+                           
+                        </ul>
+                  </div> 
+            </div>
+                  <div class="container">  
+                    <div id="customerList"> <h3>Order Amounts</h3>
+                       <!-- kom ihåg att lägga in en column som räknar antalet orders kunden lagt-->
+                       <input type="text" id="myInput" onkeyup="filter()" placeholder="Search for amount.." title="Type in a name">
+                       <table id="customerTable">
+                          <thead id="customerTableHead">
+                            <tr></tr>
+                          </thead>
+                          <tbody id="customerTableBody"></tbody>
+                        </table>
+                    </div>
+                   </div>
+
+
+                  <div class="container">
+                      <div id="orders"><h3>Orderlist</h3></div>
+                      <div id="order">
+                        <table id="bookingTable">
+                          <thead id="bookingTableHead">
+                            <tr></tr>
+                          </thead>
+                          <tbody id="bookingTableBody"></tbody>
+                        </table>
+                      </div>
+                    </div>                    
+                    
+                        
+        </div>
+            
+        
+    </body>
+</html>

@@ -1,1 +1,475 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+   
+    background-color: #88969628;
+    margin: 0; 
+     color: #00043c;
+    color: #536461;
+   
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+	margin:0;
+	font-size: 17px;
+	line-height: 2;
+    text-align: justify;
+    
+    }
+
+a{
+    text-decoration: none; 
+}
+
+    
+     a:visited{
+    color:#536461;
+    }
+ 
+    button{
+      background-color:white ;
+      color: #00076f;
+      font-weight: bold;
+      padding: 15px;
+      cursor: pointer;
+      text-transform: uppercase;
+    
+      border: 1px groove #003139;
+      
+      }
+
+      button:hover{
+        background-color: #005d6c;
+        color: white;
+        font-size: 15px;
+    }
+    .navButton:hover{
+       color: #889696;
+        cursor: pointer;
+        background-color: #5f747013;
+        font-size: larger;
+      }  
+ 
+
+    .navButton{
+    color: #889696;
+    color: #5F7470;
+    color:#B8BDB5;
+    color: #D2D4C8;
+    color: #E0E2DB;
+    border: none;
+    background-color: #5f747013;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px #5F7470;
+    font-size: larger;
+    
+    }
+
+    .function{
+      background-color: white;
+      
+      border: 1px solid black; 
+  }
+  .function:hover{
+      background-color: white;
+  }
+  
+  .function img{
+      width: 45px;
+      height: 35px;
+  }
+  
+  .function :hover{
+      background-color: white;
+      width: 50px;
+      height: 40px;
+      
+  }.function :on
+  #create.pos{
+      color: #00076f;
+  }
+  /*
+  #create.pos:hover{
+      
+  }
+  .section {
+    
+  }
+   */
+  
+  #save.pos {
+     background-color: #008a9fcb;
+     color: white;
+  
+  }
+  #save.pos:hover{
+      background-color: green;
+      color: white;
+      
+  }
+  #create.pos:hover{
+      color:white;
+      background-color: #008a9fcb;
+      
+  }
+  #confirm.pos:hover{
+      background-color: #008a9fcb;
+      color: white;
+  }
+  
+  #cancel.neg:hover{
+     
+      color: white;
+  }
+  #delete.neg{
+      background-color: rgba(211, 88, 88, 0.925);
+      color: #00043c;
+  
+  }
+  #delete.neg:hover{
+  background-color: red;
+  }
+  
+  .btnGroup{
+    
+      border: 1px solid #00043c;
+     background-color: white;
+   
+      margin-right: auto;
+      width:fit-content;
+      
+    
+  }
+  .btnGroup button{
+      
+      box-shadow: none;   
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    border: none;
+   
+  
+     
+  }
+  
+  .btnGroup .button:not(:last-child){
+      border-right: none; /* Prevent double borders */
+  }
+  
+  
+
+    .nav{
+    
+        padding: 35px;
+        text-align: center;
+        background-color: #005d6c;
+        background-image: linear-gradient(#005d6c,#00899f);
+    }
+
+    #home{
+        float: left;
+        width: 30%;
+    }
+    
+    .nav ul li{
+        text-decoration: none;
+        display: inline;
+       padding-left: 50px;
+       text-align: end;
+        width: 70%;
+        
+    }
+    
+    .nav a{
+        
+        color: white;
+        text-shadow: 2px 2px #5F7470;
+        font-size: larger;
+    }
+    .nav a:visited{
+        color: white;
+    }
+
+    header{
+
+       /* background-image: url(../pictures/volvoc40.PNG);
+        background-image: url(../pictures/Skärmklipp.PNG);
+        background-size: cover;
+        background-position:center ;
+        height: 325px;
+        padding: 0;
+        margin: 0;*/
+    }
+
+    .main {
+      
+        text-align: justify;
+}
+
+    .page {
+       border: t;
+      
+    }
+
+
+    .page ul li {
+        text-decoration: none;
+        display: inline;
+        padding: 20px;
+        
+       
+    }
+    .left {
+        float: left;
+        width: 20%;
+        border-bottom: 1px solid #00043c;
+        border-top: 1px solid #00043c;
+        height: 100px;
+        padding-left: 10% ;
+    }
+    .right {
+        float: right;
+        width: 70%;
+        border-bottom: 1px solid #00043c;
+        border-top: 1px solid #00043c;
+        height: 90px;
+        padding-top: 10px ;
+      
+        text-align: center;
+        font-size: large;
+    }
+
+    .container{
+      
+        padding-left: 10px;
+     
+        margin: 50px;
+      
+        margin-top: 20px;
+        text-align: left;
+        float: left;
+    }
+
+    #customerprofile{
+        padding-bottom: 50px;
+    }
+
+    /*Form*/
+
+.form{
+    max-width: 40%;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+font: 1em 'Roboto';
+text-transform: capitalize;
+border: #005d6c 1px solid;
+padding: 30px;
+margin: 20px;
+
+}
+
+
+  /*text FORM*/
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number]:focus {
+    background-color: lightblue;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password]:focus {
+    background-color: lightblue;
+  }
+
+    /*submit FORM*/
+   
+  input[type=submit] {
+    width: 100%;
+    background-color:#00899f ;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: 1em 'Roboto';
+  }
+  option{
+    font: 1em 'Roboto';
+  }
+  
+  input[type=submit]:hover {
+    background-color: #005d6c;
+    
+  }
+
+  /*textarea FORM*/
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    font: 1em 'Roboto';
+    resize: none;
+  }
+
+  textarea:hover{
+    background-color: lightblue;
+  }
+    
+    /*date FORM*/
+    input[type=date]{
+        width: 100%;
+        background-color:none ;
+        color: #00043c;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font: 1em 'Roboto';
+
+    }
+    input[type=date]:hover{
+        background-color: lightblue;
+    }
+  
+/* checkbox */
+.cBox input {   
+ cursor: pointer;   
+  }
+  /*Radio*/
+  input[type=radio]{
+    cursor: pointer;  
+ 
+  }
+
+  /* ----- TABLE ------ */
+  table  {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+   
+  }
+  
+ table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  
+  #customers tr:nth-child(odd){background-color: #06c0dd10;}
+  
+  
+  #customers tr:hover {
+        background-color: #008a9f46;
+        color: white;
+        text-shadow: 0px 0px 12px #00043c;
+    
+    }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #00899f;
+    color: white;
+    text-transform: uppercase;
+  }
+
+ 
+/*POP-UP*/
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+    
+    
+
+#logo{
+  float: left;
+  width: 100px;
+}

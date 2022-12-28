@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TWRental | Car </title>
+<link href="/src/styles.css" type="text/css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="/src/cars.js"></script>
+
+</head>
+<body>
+    <div id="main" class="main">
+        <div class="page">
+          <div class="left">
+            <h2>Car Rental | </h2> 
+          </div>
+          <div class="right">
+            <ul >
+              <li id="1"></li>
+              <li id="2"></li>
+            </ul>
+          </div> 
+        </div>
+
+        <div class="container" id="addCarDiv" style="float: left; width: 20%;" >
+        <button id="addCar" onclick="addCar()">Add new car</button>
+        
+        </div>
+          <div id="change">
+
+          </div>
+        <div class="container" style="float: right; width: 60%;">
+            <h3>Cars</h3>
+            <div class="btnGroup" style="margin-right: auto; ;" >
+              <button class="standard" id="showAvailableCars">Show available cars</button>
+              <button class="standard" id="showAllCars">Show all cars</button>
+            </div>
+     
+            <div id="carHead">
+            </div>
+            <div id="cars">
+              <table id="myTable">
+                <thead id="carTableHead">
+                  <tr></tr>
+                </thead>
+                <tbody id="carTableBody">
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+   
+
+</body>
+</html>
